@@ -18,12 +18,12 @@ class Pizza extends Equatable {
     Pizza(
       id: '1',
       name: 'Pepperoni',
-      image: Image.asset('/images/pizza_pepperoni.png'),
+      image: Image.asset("images/pizza.png"),
     ),
     Pizza(
       id: '2',
       name: 'Pizza Margherita',
-      image: Image.asset("/images/pizza.png"),
+      image: Image.asset("images/pizza_pepperoni.png"),
     )
   ];
 }
